@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estructura de Datos - ESPOCH</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f6f8;
+      color: #222;
+    }
+    header {
+      background-color: #9b0000;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    section {
+      display: none;
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    section.active {
+      display: block;
+    }
+    h2 {
+      color: #a00;
+    }
+    ul {
+      line-height: 1.8em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ESPOCH - Sede Orellana</h1>
+    <h2>Asignatura: Estructura de Datos</h2>
+    <p><strong>Docente:</strong> Ing. Pedro Stalyn Aguilar Encarnación, MBA</p>
+    <p><strong>Período Académico:</strong> 15 de septiembre de 2025 – 13 de febrero de 2026</p>
+  </header>
+
+  <nav>
+    <a href="#" onclick="mostrar('u1')">Unidad 1</a>
+    <a href="#" onclick="mostrar('u2')">Unidad 2</a>
+    <a href="#" onclick="mostrar('u3')">Unidad 3</a>
+    <a href="#" onclick="mostrar('u4')">Unidad 4</a>
+  </nav>
+
+  <section id="u1" class="active">
+    <h2>Unidad 1: Fundamentos e Introducción a las Estructuras de Datos</h2>
+    <p><strong>Resultado de aprendizaje:</strong> Identifica las características y fundamentos de las estructuras de datos mediante el análisis de bibliografía y casos prácticos.</p>
+    <ul>
+      <li><strong>1. Introducción</strong>
+        <ul>
+          <li>1.1 Historia</li>
+          <li>1.2 Características</li>
+          <li>1.3 Ventajas y desventajas</li>
+        </ul>
+      </li>
+      <li><strong>2. Tipos de datos</strong>
+        <ul>
+          <li>2.1 Tipos primitivos</li>
+          <li>2.2 Tipos compuestos</li>
+          <li>2.3 Tipos agregados o estructuras de datos</li>
+          <li>2.4 Tipos abstractos</li>
+        </ul>
+      </li>
+      <li><strong>3. Datos compuestos</strong>
+        <ul>
+          <li>3.1 Vectores</li>
+          <li>3.2 Matrices</li>
+          <li>3.3 Registros</li>
+        </ul>
+      </li>
+      <li><strong>4. Fundamentos de algoritmia</strong>
+        <ul>
+          <li>4.1 Concepto de algoritmo</li>
+          <li>4.2 Representación de algoritmos</li>
+          <li>4.3 Introducción a las ciencias de la computación</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="u2">
+    <h2>Unidad 2: Estructuras de Datos Lineales</h2>
+    <p><strong>Resultado de aprendizaje:</strong> Analiza y aplica estructuras lineales (listas, pilas y colas) para resolver problemas computacionales.</p>
+    <ul>
+      <li><strong>1. Pila (Stack)</strong>
+        <ul>
+          <li>1.1 Concepto</li>
+          <li>1.2 Representación gráfica</li>
+          <li>1.3 Operaciones básicas</li>
+          <li>1.4 Aplicaciones</li>
+        </ul>
+      </li>
+      <li><strong>2. Cola (Queue)</strong>
+        <ul>
+          <li>2.1 Concepto</li>
+          <li>2.2 Tipos y representación gráfica</li>
+          <li>2.3 Operaciones</li>
+          <li>2.4 Aplicaciones</li>
+        </ul>
+      </li>
+      <li><strong>3. Lista (List)</strong>
+        <ul>
+          <li>3.1 Concepto de nodo</li>
+          <li>3.2 Tipos de listas</li>
+          <li>3.3 Operaciones</li>
+          <li>3.4 Aplicaciones</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="u3">
+    <h2>Unidad 3: Estructuras de Datos No Lineales</h2>
+    <p><strong>Resultado de aprendizaje:</strong> Aplica estructuras no lineales (árboles y grafos) para solucionar problemas computacionales.</p>
+    <ul>
+      <li><strong>1. Visualización de algoritmos</strong>
+        <ul>
+          <li>1.1 Uso de técnicas y herramientas digitales</li>
+        </ul>
+      </li>
+      <li><strong>2. Árboles</strong>
+        <ul>
+          <li>2.1 Definición y representación</li>
+          <li>2.2 Recorridos de árboles</li>
+          <li>2.3 Métodos principales</li>
+        </ul>
+      </li>
+      <li><strong>3. Grafos</strong>
+        <ul>
+          <li>3.1 Definición</li>
+          <li>3.2 Tipos de grafos</li>
+          <li>3.3 Propiedades y aplicaciones</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="u4">
+    <h2>Unidad 4: Búsqueda y Ordenamiento</h2>
+    <p><strong>Resultado de aprendizaje:</strong> Conoce y aplica métodos de ordenamiento y búsqueda en estructuras de datos.</p>
+    <ul>
+      <li><strong>1. Análisis de algoritmos</strong>
+        <ul>
+          <li>1.1 Complejidad temporal y espacial (Big O)</li>
+          <li>1.2 Algoritmos clásicos</li>
+          <li>1.3 Aplicaciones en programación competitiva</li>
+        </ul>
+      </li>
+      <li><strong>2. Métodos de ordenamiento</strong>
+        <ul>
+          <li>2.1 Burbuja (Bubble Sort)</li>
+          <li>2.2 Quicksort</li>
+          <li>2.3 Mergesort</li>
+        </ul>
+      </li>
+      <li><strong>3. Métodos de búsqueda</strong>
+        <ul>
+          <li>3.1 Secuencial</li>
+          <li>3.2 Binaria</li>
+          <li>3.3 Hash</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <script>
+    function mostrar(id) {
+      document.querySelectorAll("section").forEach(s => s.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+    }
+  </script>
+
+</body>
+</html>
